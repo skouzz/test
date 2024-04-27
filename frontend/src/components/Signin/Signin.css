@@ -1,0 +1,54 @@
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .signin-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #343a40; /* Dark text color */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    width: 300px; /* Set width of form inputs */
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #495057; /* Medium dark text color */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da; /* Medium light border color */
+    border-radius: 0.25rem;
+  }
+  
+  input[type="email"]::placeholder,
+  input[type="password"]::placeholder {
+    color: #adb5bd; /* Light placeholder text color */
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker primary button color on hover */
+  }
+  
